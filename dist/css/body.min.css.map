@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,AAAA,CACA,gBAAgB,CAAE,OAAO,CAC5B",
+    "sources": [
+        "../../scss/base/body.scss"
+    ],
+    "names": [],
+    "file": "body.min.css"
+}

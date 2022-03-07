@@ -1,0 +1,12 @@
+.sidebar{
+    background-color: $side-bg-color;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar__photo{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.sidebar__title{
+    color: $side-font-color;
+}
