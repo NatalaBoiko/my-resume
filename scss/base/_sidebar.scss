@@ -1,12 +1,46 @@
-.sidebar{
+.sidebar {
     background-color: $side-bg-color;
     display: flex;
     flex-direction: column;
+
 }
-.sidebar__photo{
+.sidebar__photo {
     margin-top: 40px;
     margin-bottom: 40px;
 }
-.sidebar__title{
+.contacts__section ,
+.techSkills,
+.softSkills{
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.sidebar__title {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px; 
+    line-height: 1.22;
     color: $side-font-color;
+    margin-bottom: 8px;
+}
+// .contacts {
+// }
+.contact {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px; 
+    line-height: 1.22;
+    color: $side-font-color;
+}
+.contact__linc {
+    margin-left: 8px;
+    color: $side-contact-color;
+}
+.skills__list {
+    margin-left: -20px;
+}
+.skills__item {
+    color: $accentColor;
+}
+.skills__item__list {
+    color: $side-contact-color;
 }

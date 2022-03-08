@@ -3,6 +3,8 @@ a {
   display: inline-block;
 }
 
+ul,
+ol,
 p,
 h1,
 h2,
@@ -23,12 +25,13 @@ body {
 }
 
 .main__container {
-  -webkit-box-shadow: 6px, 6px, rgba(0, 0, 0, 0.1);
-          box-shadow: 6px, 6px, rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.main__content__section {
-  background-color: #F5F7FA;
+.is__hidden {
+  opacity: 0;
+  visibility: 0;
 }
 
 .sidebar {
@@ -47,7 +50,48 @@ body {
   margin-bottom: 40px;
 }
 
+.contacts__section,
+.techSkills,
+.softSkills {
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
 .sidebar__title {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 1.22;
   color: #FFFFFF;
+  margin-bottom: 8px;
+}
+
+.contact {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 1.22;
+  color: #FFFFFF;
+}
+
+.contact__linc {
+  margin-left: 8px;
+  color: #ffffff77;
+}
+
+.skills__list {
+  margin-left: -20px;
+}
+
+.skills__item {
+  color: #FB6D3A;
+}
+
+.skills__item__list {
+  color: #ffffff77;
+}
+
+.main__content__section {
+  background-color: #F5F7FA;
 }
 /*# sourceMappingURL=main.css.map */
